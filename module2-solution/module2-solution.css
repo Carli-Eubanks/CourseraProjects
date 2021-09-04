@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  background-color: rgba(0, 250, 154, .6);
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 50px;
+  font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 2px;
+}
+
+section {
+  border: 2px solid black;
+  margin: 10px 10px 10px 25px;
+  padding: 0px;
+  position: relative;
+}
+
+p {
+  clear: both;
+  padding: 10px;
+  margin: 0px;
+}
+
+#section1 {
+  background-color: rgb(220, 220, 220);
+  margin-bottom: 15px;
+}
+
+#section2 {
+  background-color: rgb(255, 192, 203);
+  margin-bottom: 15px;
+}
+
+#section3 {
+  background-color: rgb(255, 222, 173);
+  margin-bottom: 15px;
+}
+
+#heading1 {
+  background-color: rgb(176, 224, 230);
+  font-size: 1.25em;
+}
+
+#heading2 {
+  background-color: rgba(238,130,238, .75);
+  font-size: 1.25em;
+}
+
+#heading3 {
+  background-color: rgba(255, 255, 153, .75);
+  font-size: 1.25em;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 766px) {
+  .col-xs-12 {
+    float: left;
+    width: 100%;
+  }
+}
